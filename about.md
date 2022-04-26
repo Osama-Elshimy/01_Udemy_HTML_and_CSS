@@ -4,4 +4,4 @@
 
 #### The _head_ tag is where the information about the page is displayed. These information are not visible to the browser.
 
-### The body tag is where the content of the page is displayed.
+#### The body tag is where the content of the page is displayed.
