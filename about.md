@@ -1,13 +1,23 @@
-# Text Elements
+# More Text Elements
 
-## Headings: There are 6 types of heading elements
+## Lists:
 
-## The smaller the number of the _h_ tag, the smaller the heading size is.
+## To create an ordered list, we use the _ol_ element.
 
-### Every HTML should have only one _h1_ heading tag.
+### We can add the list element to the list by using the _li_ element.
+
+1. A numbered list
+   1. A nested numbered list
+   2. Which is numbered
+2. Which is numbered
 
 ---
 
-# <h1>This is the h1 heading, the largest heading</h1>
+## To create an unordered list, we use the _ul_ element.
 
-<h6>This is the h6 heading, the smallest heading</h6>
+### We can add the list element to the list by using the _li_ element
+
+- Bullet list
+  - Nested bullet
+    - Sub-nested bullet etc
+- Bullet list item 2
