@@ -1,3 +1,1 @@
-# test
-
-This is a new branch.
+# This is the main branch.
