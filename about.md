@@ -1,7 +1,13 @@
-# HTML Document Structure
+# Text Elements
 
-### Every HTML file must have a _DOCTYPE_ tag, a _HTML_ tag, a _head_ tag and a _body_ tag.
+## Headings: There are 6 types of heading elements
 
-#### The _head_ tag is where the information about the page is displayed. These information are not visible to the browser.
+## The smaller the number of the _h_ tag, the smaller the heading size is.
 
-#### The body tag is where the content of the page is displayed.
+### Every HTML should have only one _h1_ heading tag.
+
+---
+
+# <h1>This is the h1 heading, the largest heading</h1>
+
+<h6>This is the h6 heading, the smallest heading</h6>
