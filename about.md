@@ -1,4 +1,4 @@
-R2# More Text Elements
+# More Text Elements
 
 ## Lists:
 
