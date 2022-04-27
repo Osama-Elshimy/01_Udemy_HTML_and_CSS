@@ -1,3 +1,3 @@
-# This is the seventh branch.
+# This is the eighth branch.
 
-## Structing our Page
+## Challenge\*01: Adding the _"Related posts"_ part to the web page.
