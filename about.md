@@ -1,5 +1,9 @@
-# Images and Attributes
+# Hyperlinks
 
-### Every image need to have an "alt" attribute that describes the image. This attribute is very useful when the image can't be loaded and very useful for screen readers.
+### To add a hyperlink, we need to use the _"a"_ element.
 
-### We can control the size of the image by using the "width" attribute and "height" attribute.
+### To add the link, we need to use the _"href"_ attribute.
+
+### The we add the text that appears in the page between the _"a"_ element.
+
+### If we want the link to open in a new tab, we need to use set the _"target"_ attribute to _"\_blank"_.
