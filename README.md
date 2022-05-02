@@ -1,3 +1,3 @@
-# This is the eighth branch.
+# This is the ninth branch.
 
-## Challenge\*01: Adding the _"Related posts"_ part to the web page.
+## Challenge\*02: Adding a new HTML file called "challenge02.html".
