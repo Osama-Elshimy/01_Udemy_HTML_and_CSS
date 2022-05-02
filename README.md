@@ -1,3 +1,3 @@
-# This is the ninth branch.
+# This is the 10th branch.
 
-## Challenge\*02: Adding a new HTML file called "challenge02.html".
+## Introduction to CSS.
