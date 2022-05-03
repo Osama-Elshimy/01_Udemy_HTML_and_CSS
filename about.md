@@ -1,11 +1,17 @@
-# Introduction to CSS
+# Inline, Internal and External CSS
 
-## What is CSS?
+## How to write CSS?
 
-CSS refers to **C**ascading **S**tyle **S**heets
+### There are 3 ways to write CSS:
 
-CSS describes the **visual style and presentation** of the **content written in HTML**
+1. _Inline_: In which we write _CSS_ inside the _HTML_ element.
 
-CSS consists of countless **properties** that developers can use to format the content: properties about font, text, spacing, layout, color, etc.
+   - _Note_: Inline _CSS_ should never be used.
 
-There is no need to memorize all the properties of CSS by heart, we just need to practice over and over until we get it.
+2. _Internal_: In which we write _CSS_ inside a _style_ element inside the _head_ of the _HTML_ file.
+
+3. _External_: In which we write _CSS_ in a separate file.
+
+   - _Note_: This is the most favoured method in writing CSS
+
+   - We need to link the _HTML_ file with the _CSS_ external file through a _link_ tag inside the _head_ tag in the HTML file.
