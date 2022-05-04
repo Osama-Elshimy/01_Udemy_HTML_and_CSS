@@ -1,26 +1,16 @@
 # Combining Selectors
 
-We can combine selectors together if we want to use one style property for all of them.
+We can use Classes and IDs to select the exact elements that we want to style. This is by far the most efficient way to do this.
 
-For example, we used the same _font-family_ for all of the text elements. This is repetitive. A better way of doing this is to combine the selectors together and use the same _font-famliy_ for all of them.
-
-_CODE_:
-
-h1, h2, h3, h4, p, li  
-{  
-font-family: sans-serif;  
-}
-
-We can combine selectors in another way.
+We define th _ID_ name inside of the _HTML_ element.
+The _ID_ name is unique within the _HTML_ file. We can't use the _ID_ name in more than one _HTML_ element.
+We select the _ID_ inside the _CSS_ file using _#_ then the name of the _ID_
 
 _CODE_:
 
-footer p  
+\#author  
 {  
- fon-size: 26px;  
+ font-style: italic;  
 }
 
-That way we select only the _p_ element that is inside the _footer_ element.
-
-Although this worked just fine, it's not a good practice to use this way of combining selectors.
-A better practice would be to use _IDs_ and _Classes_.
+### In the real world, we never use _IDs_. This way we are ready for any changes in the future.
