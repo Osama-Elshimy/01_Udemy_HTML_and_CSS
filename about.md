@@ -1,4 +1,4 @@
-# Combining Selectors
+# Classes and IDs Selectors.
 
 We can use Classes and IDs to select the exact elements that we want to style. This is by far the most efficient way to do this.
 
