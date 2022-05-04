@@ -1,6 +1,30 @@
-# Working With Colors.
+# Pseudo-classes.
 
-## We can represent colors in different ways in code:
+### We can use Pseudo-classes to pick some exact child elements of some parent elements.
 
-- RGB Model: Every color can be represented by a combination of RED, GREEN and BLUE
-- Each of the 3 base colors can take a value between 0 and 255, which leads to 16.8 million different colors.
+For exmaple:
+
+_CODE_:
+
+li:first-child  
+{  
+ color: red;  
+}
+
+- Here we set the color of the first element of any _li_ element to red.
+
+_CODE_:
+li:last-child  
+{  
+ color: red;  
+}
+
+- Here we set the color of the last element of any _li_ element to red.
+
+_CODE_:
+li:nth-child(3)  
+{  
+ color: red;  
+}
+
+- Here we set the color of the 3rd element of any _li_ element to red.
