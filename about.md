@@ -1,17 +1,8 @@
-# Inline, Internal and External CSS
+# Styling Text
 
-## How to write CSS?
+The _h1_ element doesn't have to be the biggest element. It's all about symmetry.
 
-### There are 3 ways to write CSS:
+When you select an element in the _CSS_ file, you will apply the style to all the elements.
+For example if you set the color of the _h2_ element to red, then all the _h2_ in the web page will be red.
 
-1. _Inline_: In which we write _CSS_ inside the _HTML_ element.
-
-   - _Note_: Inline _CSS_ should never be used.
-
-2. _Internal_: In which we write _CSS_ inside a _style_ element inside the _head_ of the _HTML_ file.
-
-3. _External_: In which we write _CSS_ in a separate file.
-
-   - _Note_: This is the most favoured method in writing CSS
-
-   - We need to link the _HTML_ file with the _CSS_ external file through a _link_ tag inside the _head_ tag in the HTML file.
+When you select an element in the _CSS_ file, you will apply the style to all the child elements of the element you selcted. This is called Inheritance.
