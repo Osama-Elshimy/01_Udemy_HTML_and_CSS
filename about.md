@@ -1,62 +1,9 @@
-# Styling Hyberlinks.
+# Using Margings and Paddings.
 
-### We can use style _Hyberlinks_ by using the _a_ elements.
+#### A _padding_ is the space between an element's border and the element's content. The _padding_ is inside the element's border.
 
-For exmaple:
+- _padding_ is useful when an element has a background color.
 
-_CODE_:
+#### A _margin_ is the space around an element's border. It controls the space outside the element. The _margin_ is outside the element's border.
 
-a  
-{  
- color: red;  
-}
-
-- Here we set the color of _Hyberlink_ to red, **but using this method is not a good practice.**
-
-### A better way of styling _Hyberlinks_ would be to use Pseudo-classes.
-
-For example:
-
-_CODE_:
-
-a:link  
-{  
- color: red;  
-}
-
-- Here we set the color of the _Hyberlink_ to red.
-- This way we make sure that only valid links, links with _href_ elements, will be set to red.
-
-_CODE_:
-
-a:visited  
-{  
-color: green;  
-}
-
-- Here we set the color of the visited _Hyberlink_ to green.
-
-_CODE_:
-
-a:hover  
-{  
-color: blue;  
-}
-
-- Here we set the color of the _Hyberlink_ when we hover over it to blue.
-
-_CODE_:
-
-a:active  
-{  
-backgroud-color: black;  
-}
-
-- Here we set the backgroud-color of any active _Hyberlink_ to black.
-
-### It's important to style the _a_ elements in the following order:
-
-1. _a:link{}_
-2. _a:visited{}_
-3. _a:hover{}_
-4. _a:active{}_
+- It's best practice to just use _margin-top_ or to just use _margin-bottom_ and **NOT** to use them together. This is best to avoid margin collisions.
