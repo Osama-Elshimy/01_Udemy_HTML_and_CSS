@@ -31,4 +31,4 @@
 
 **With CSS**: display: inline-block
 
-### NOTE: _img_ act like inline-block elements
+### NOTE: _img_ elements act like inline-block elements
