@@ -1,17 +1,34 @@
-# Centering our Page.
+# CSS Theory#4: Types of Boxes.
 
-### In order to center the web pabe, we need to create a container element.
+## Block-Level Elements:
 
-### I created a _div_ element that is a parent element of all the _HTML_ elements in the body of the page.
+- Elements are formatted visually as blocks.
+- Elements occupy **100% of parent element's width**, No matter the content.
+- Elements are **stacked vertically** by default, one after another.
+- Box-model applies as shown
 
-### In the _CSS_ file, I centered the container element by using _margin_ properties.
+**Default Block-Level Elements**: body, main, header, footer, section, nav, aside, div, h1-h6, p, ul, ol, li
 
-### **_CODE_**:
+**With CSS**: display: block
 
-.container {
+## Inline Elements:
 
-width: 800px;
+- Elements occupy only the space **necessary for it's content**
+- Cause **no line-breaks** after or before the element
+- Box model applies in a different way: **heights and width don't apply**
+- Paddings and margins are applied **only horizontally** (left and right)
 
-margin: 0 auto;
+**Default Inline Elements**: a, img, strong, em, button
 
-}
+**With CSS**: display: inline
+
+## Inline-Block Elements:
+
+- Looks like inline from the **outside**, behaves like block-level on the **inside**
+- Occupy only content's space
+- Cause no line-breaks
+- Box-model applies as shown
+
+**With CSS**: display: inline-block
+
+### NOTE: _img_ act like inline-block elements
