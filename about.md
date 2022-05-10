@@ -1,34 +1,19 @@
-# CSS Theory#4: Types of Boxes.
+# CSS Theory#5: Absolute Positioning.
 
-## Block-Level Elements:
+## Normal Flow:
 
-- Elements are formatted visually as blocks.
-- Elements occupy **100% of parent element's width**, No matter the content.
-- Elements are **stacked vertically** by default, one after another.
-- Box-model applies as shown
+- Default position
+- Element is **"in flow"**
+- Elements are simply laid out according to their order in the HTML code
 
-**Default Block-Level Elements**: body, main, header, footer, section, nav, aside, div, h1-h6, p, ul, ol, li
+**CODE**:  
+position: relative;
 
-**With CSS**: display: block
+## Absolute Positioning:
 
-## Inline Elements:
+- Element is removed from the normal flow: **"out of flow"**
+- No impact on surrounding elements, might overlap them
+- We use top, bottom, left or right to offset the element from its **relatively positioned container**
 
-- Elements occupy only the space **necessary for it's content**
-- Cause **no line-breaks** after or before the element
-- Box model applies in a different way: **heights and width don't apply**
-- Paddings and margins are applied **only horizontally** (left and right)
-
-**Default Inline Elements**: a, img, strong, em, button
-
-**With CSS**: display: inline
-
-## Inline-Block Elements:
-
-- Looks like inline from the **outside**, behaves like block-level on the **inside**
-- Occupy only content's space
-- Cause no line-breaks
-- Box-model applies as shown
-
-**With CSS**: display: inline-block
-
-### NOTE: _img_ elements act like inline-block elements
+**CODE**:  
+position: absolute;
