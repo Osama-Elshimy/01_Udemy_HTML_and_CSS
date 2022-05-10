@@ -1,21 +1,19 @@
-# This is the 24th branch.
+# This is the 25th branch.
 
-## CSS Theory#5: Absolute Positioning.
+## Pseudo-elements.
 
-## Normal Flow:
+### Pseudo-elements don't exist in HTML files, but we can still select and style in CSS.
 
-- Default position
-- Element is **"in flow"**
-- Elements are simply laid out according to their order in the HTML code
+- An example for pseudo-elements is the first letter or a paragraph of the first line of a paragraph
 
-**CODE**:  
-position: relative;
+- Pseudo-elements are selected using two colons
 
-## Absolute Positioning:
+**CODE**:
 
-- Element is removed from the normal flow: **"out of flow"**
-- No impact on surrounding elements, might overlap them
-- We use top, bottom, left or right to offset the element from its **relatively positioned container**
+h1::first-letter {  
+font-style: normal;  
+}
 
-**CODE**:  
-position: absolute;
+In the previous code, we selected the first letter of the _h1_ element and set chaged it's font style
+
+**NOTE**: If we set a value of _margin_ or _padding_ to a negative value, then the element will move to the opposite direction
