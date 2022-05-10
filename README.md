@@ -10,5 +10,5 @@ Whenever there is a bug or the code doesn't behave or look like it was intended,
 
 #### Useful tools for debugging:
 
-- [HTML validator where you can check whether you HTML code is valid or not](https://validator.w3.org/)
-- [HTML comparing where you can compare your code with another one](https://www.diffchecker.com/)
+- [HTML validator where you can check whether your HTML code is valid or not](https://validator.w3.org/)
+- [HTML comparing tool where you can compare your code with another one](https://www.diffchecker.com/)
