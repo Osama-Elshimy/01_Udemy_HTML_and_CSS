@@ -6,6 +6,7 @@
 body {
   font-family: sans-serif;
   line-height: 1.4;
+  position: relative;
 }
 
 /* PRODUCT */
@@ -28,6 +29,7 @@ body {
   text-transform: uppercase;
   /* height: 50px; */
   padding: 15px;
+  position: relative;
 }
 
 .price {
@@ -52,6 +54,8 @@ body {
 .more-info:link,
 .more-info:visited {
   color: black;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 .more-info:hover,
@@ -96,4 +100,59 @@ body {
 .add-cart:hover {
   color: #000;
   background-color: #fff;
+}
+
+/* .sale {
+  color: #fff;
+  background-color: #f00;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  position: absolute;
+  top: 50px;
+  left: 50px;
+} */
+
+.product-header::before {
+  content: "sale";
+  letter-spacing: 2px;
+  background-color: #ec2f2f;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  display: inline-block;
+  padding: 7px 15px;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-brown {
+  background-color: brown;
 }
