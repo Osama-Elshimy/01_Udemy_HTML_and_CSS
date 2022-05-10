@@ -1,3 +1,3 @@
-# This is the ninth branch.
+# Challenge #2 
 
-## Challenge\*02: Adding a new HTML file called "challenge02.html".
+## A completely new HTML file
