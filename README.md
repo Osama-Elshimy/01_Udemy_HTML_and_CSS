@@ -1,17 +1,14 @@
-# Pseudo-elements.
+# Developer Skills.
 
-### Pseudo-elements don't exist in HTML files, but we can still select and style in CSS.
+## Googiling and reading documentation:
 
-- An example for pseudo-elements is the first letter or a paragraph of the first line of a paragraph
+There is no need to memorize every single code or property in HTML or CSS. All we need to do is to understand the concepts of the two languagues and whenever you forget something, you simply google it or take a loot at the documentation.
 
-- Pseudo-elements are selected using two colons
+## Debugging:
 
-**CODE**:
+Whenever there is a bug or the code doesn't behave or look like it was intended, we should look at the part where it went wrong in the page and see it in the source code.
 
-h1::first-letter {  
-font-style: normal;  
-}
+#### Useful tools for debugging:
 
-In the previous code, we selected the first letter of the _h1_ element and set chaged it's font style
-
-**NOTE**: If we set a value of _margin_ or _padding_ to a negative value, then the element will move to the opposite direction
+- [HTML validator where you can check whether you HTML code is valid or not](https://validator.w3.org/)
+- [HTML comparing where you can compare your code with another one](https://www.diffchecker.com/)
