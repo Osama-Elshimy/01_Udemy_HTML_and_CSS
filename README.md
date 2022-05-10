@@ -1,6 +1,4 @@
-# This is the 25th branch.
-
-## Pseudo-elements.
+# Pseudo-elements.
 
 ### Pseudo-elements don't exist in HTML files, but we can still select and style in CSS.
 
