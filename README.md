@@ -1,3 +1,3 @@
-# This is the eighth branch.
+# Challenge #1
 
-## Challenge\*01: Adding the _"Related posts"_ part to the web page.
+## Adding the _"Related posts"_ part to the web page.
