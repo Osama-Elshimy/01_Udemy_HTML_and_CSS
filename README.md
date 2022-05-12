@@ -1,14 +1,13 @@
-# Developer Skills.
+# Using Floats.
 
-## Googiling and reading documentation:
+- When an element is floated, it's removed out of the normal flow: "_out of flow_"
 
-There is no need to memorize every single code or property in HTML or CSS. All we need to do is to understand the concepts of the two languagues and whenever you forget something, you simply google it or take a loot at the documentation.
+- Text and inline elements will wrap around the floated element
 
-## Debugging:
+- The container element will **not** adjust its height to the floated element
 
-Whenever there is a bug or the code doesn't behave or look like it was intended, we should look at the part where it went wrong in the page and see it in the source code.
-
-#### Useful tools for debugging:
-
-- [HTML validator where you can check whether your HTML code is valid or not](https://validator.w3.org/)
-- [HTML comparing tool where you can compare your code with another one](https://www.diffchecker.com/)
+**CODE**:  
+{  
+ float: right;  
+ float: left;  
+}
