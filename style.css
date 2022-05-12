@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -210,6 +210,8 @@ h2::after {
   right: -25px;
 }
 
+/* FLOATS */
+
 h1 {
   float: left;
 }
@@ -226,4 +228,18 @@ nav {
   content: " ";
   clear: both;
   display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }

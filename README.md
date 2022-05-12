@@ -1,19 +1,7 @@
-# Clearing Floats.
+# Building a Simple Float Layout.
 
-#### The easiest way to clear floats is to add a new empty element after all the floated elements and use the _clear_ property in CSS on that element and set it to _both_, but this is not the best way to fix the problem.
+#### In this bransh, I built a very simple layout using _floats_, by simply setting the _article_ element _float_ property to left, and setting the _aside_ element _float_ property to right, and setting the _footer_ element _clear_ property to both.
 
-#### It's not a good practice to add unnecessary elements all around the HTML file.
+#### It's important to note that floats are not the best way to build layouts, but it's important to have an idea about how they work.
 
-**CODE**:  
-{  
- clear: both;  
-}
-
-#### A better solution is to add a _pseudo-element_ to the end of the container of the element that contains the problem. And then use the _clear_ property on that _pseudo-element_
-
-**CODE**:  
-.clearfix::after {  
-content: " ";  
- clear: both;  
- display: block;  
-}
+#### In the following branch, I'll use better methods.
