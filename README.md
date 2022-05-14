@@ -1,23 +1,15 @@
-# Introduction to Flexbox
+# A Flexbox Overview
 
 ---
 
-When _flexbox_ is used:
+## What is Flexbox?
 
-**CODE**:  
- display: flex;
+- Flexbox is a set of related **CSS properties** for building **1-dimensional layouts**
 
-- The elements only occupy the width necessary for the text, and occupy the height of the element the has the biggest height value.
-- If no height is specified, the elements will also occupy only the height necessary for the text.
+- The main idea behind _flexbox_ is that empty space inside a container element can be **automatically divided** by its child elements
 
----
+- _Flexbox_ makes it easy to automatically **align items to one another** inside a parent container, both horizontally and vertically
 
-_Flexbox_ introduces very useful features:
+- _Flexbox_ solves common problems such as **vertically centering** and creating **equal-height columns**
 
-- We can center the elements vertically with just one line of code  
-  **CODE**:  
-  align-items: center;
-
-- We can center the elements horizontally with just one line of code  
-  **CODE**:  
-  justify-content: center;
+- _Flexbox_ is perfect for **replacing floats**, allowing us to write fewer and cleaner **HTML** and **CSS** code
