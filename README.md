@@ -12,7 +12,6 @@ The `flex` property is a shorthand for:
 
 The defualt values of these properties are:
 
-**CODE**:
 
 ```
   flex-grow: 0;
