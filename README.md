@@ -1,22 +1,6 @@
-# The flex Property
+# Adding Flexbox to Our Project
 
 ---
 
-The `flex` property is a shorthand for:
-
-```
- flex-grow
- flex-shrink
- flex-basis
-```
-
-The defualt values of these properties are:
-
-
-```
-  flex-grow: 0;
-  fex-shrink: 1;
-  flex-basis: auto;
-```
-
-**NOTE**: It's a better practice to always use the `flex` shorthand property.
+- Replaced all the _float_ properties _flex_ counterparts in order to get the exact same style.
+- _Flex_ is much more easier to use than _floats_.
