@@ -1,3 +1,3 @@
-# CSS Challenge #3.
+# Layouts Challenge #2
 
-In this challenge, I added CSS border-box properties in order to build a layout using *floats*.
+In this challenge, I replaced _floats_ properties with their _flex_ counterparts in order to build the same layout.
